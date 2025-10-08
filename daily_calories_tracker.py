@@ -21,7 +21,7 @@ daily_limit=float(input("Enter your daily calorie limit: "))
 if(avg_calories>daily_limit):
     print("Excess of calories are  taken..")
 else:
-    print("you are good with your daily limit..")
+    print("you are good in calories..")
 print()
 #task 5   
 #print the table header 
@@ -33,3 +33,4 @@ for i in range(len(Meal)):
 print()
 print("Your total caories are: ")
 print(total_calories)
+
